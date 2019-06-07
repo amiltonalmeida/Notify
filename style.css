@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-areas: 'lele'
+                         'navbar'
+                          'header'
+                          'section'
+                          'aside'
+                          'footer';
+    grid-template-rows: 1vh 90vh 50vh 70vh 70vh 20vh;
+}
+lele{
+    grid-area: div;
+    background-color: green;
+}
+nav{
+    grid-area: navbar;
+    background-image: url(img/banner.png);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;   
+}
+nav img{
+    width: 350px;
+    bottom: 
+
+}
+nav div:nth-child(1){
+    <img src="img/hand.png" alt="">
+}
+nav div:nth-child(2){
+
+}
+header{
+    grid-area: header;
+    background-color:white;
+}
+section{
+    grid-area: section;
+    background-color: rgb(160, 158, 158) ;
+}
+aside{
+    grid-area: aside;
+    background-color: white;
+}
+footer{
+    grid-area: footer;
+    background-color: rgb(160, 158, 158);
+}
