@@ -1,35 +1,41 @@
 body{
     margin: 0;
     display: grid;
-    grid-template-areas: 'lele'
+    grid-template-areas: 
                          'navbar'
                           'header'
                           'section'
                           'aside'
                           'footer';
-    grid-template-rows: 1vh 90vh 50vh 70vh 70vh 20vh;
-}
-lele{
-    grid-area: div;
+    grid-template-rows:  90vh 50vh 70vh 70vh 20vh;
     background-color: green;
 }
+
 nav{
     grid-area: navbar;
     background-image: url(img/banner.png);
     display: flex;
-    align-items: flex-end;
-    justify-content: space-around;   
+    align-items: center;
+    justify-content: space-around;  
+    margin-top: 1%;
+}
+nav a{
+    width: 5px;
 }
 nav img{
-    width: 350px;
-    bottom: 
-
-}
-nav div:nth-child(1){
+    width: 400px;
     
 }
-nav div:nth-child(2){
+nav div1 h1{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 30pt;
 
+}
+nav div1 p{
+    font-family: arial;
+    color: white;
+    font-size: 20pt;
 }
 header{
     grid-area: header;
